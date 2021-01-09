@@ -26,14 +26,7 @@ def pingServer (serverAddres):
         if ping > Max:
             Max = ping
 
-    #print(ping1, ping2, ping3, ping4)
-
-    #Average
-    #print("Average:", (ping1+ping2+ping3+ping4)/4)
     Average = sumOfPings/4
-
-    #Maximum
-    #print("Max", max(ping1,ping2,ping3,ping4))
     return[Average, Max]
 
 listOfServers = [["Google DNS", "8.8.8.8"], ["Main switch","192.168.86.63" ], ["Google Wifi Router", "192.168.86.1"], ["Cable modem", "192.168.100.1"], ["SBB DNS", "89.216.1.2"]]
