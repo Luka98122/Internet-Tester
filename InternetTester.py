@@ -41,9 +41,9 @@ def pingServer(serverAddres):
 
 
 listOfServers = [
-    ["Google Wifi Router", "192.168.86.1", 30],
-    ["Main switch", "192.168.86.63", 40],
-    ["Cable modem", "192.168.100.1", 50],
+    ["Google Wifi Router", "192.168.86.1", 10],
+    ["Main switch", "192.168.86.63", 30],
+    ["Cable modem", "192.168.100.1", 20],
     ["SBB DNS", "89.216.1.2", 60],
     ["Test server", "200.200.200.200", 10],
     ["Google DNS", "8.8.8.8", 100],
